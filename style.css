@@ -249,7 +249,7 @@ body{
     }
 
     .cuadrado2 {
-        background-color: steelblue;
+        background-color: lightsteelblue;
         height: 30vh;
         width: 30vh;
         display: flex;
@@ -294,7 +294,7 @@ body{
     }
 
     .cuadrado3 {
-        background-color: khaki;
+        background-color: gold;
         height: 30vh;
         width: 30vh;
         display: flex;
