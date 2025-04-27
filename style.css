@@ -216,7 +216,7 @@ body{
 
         .renglon1 {
             background-color: dimgrey;
-            height: 2vh;
+            height: 1.5vh;
             width: 100%;
             display: flex;
             position: absolute;
@@ -227,7 +227,7 @@ body{
 
         .renglon2 {
             background-color: silver;
-            height: 2vh;
+            height: 1.5vh;
             width: 100%;
             display: flex;
             position: absolute;
@@ -238,7 +238,7 @@ body{
 
         .renglon3 {
             background-color: silver;
-            height: 2vh;
+            height: 1.5vh;
             width: 50%;
             display: flex;
             position: absolute;
@@ -261,7 +261,7 @@ body{
 
         .renglon4 {
             background-color: dimgrey;
-            height: 2vh;
+            height: 1.5vh;
             width: 100%;
             display: flex;
             position: absolute;
@@ -272,7 +272,7 @@ body{
 
         .renglon5 {
             background-color: silver;
-            height: 2vh;
+            height: 1.5vh;
             width: 100%;
             display: flex;
             position: absolute;
@@ -283,7 +283,7 @@ body{
 
         .renglon6 {
             background-color: silver;
-            height: 2vh;
+            height: 1.5vh;
             width: 50%;
             display: flex;
             position: absolute;
@@ -306,7 +306,7 @@ body{
 
         .renglon7 {
             background-color: dimgrey;
-            height: 2vh;
+            height: 1.5vh;
             width: 100%;
             display: flex;
             position: absolute;
@@ -317,7 +317,7 @@ body{
 
         .renglon8 {
             background-color: silver;
-            height: 2vh;
+            height: 1.5vh;
             width: 100%;
             display: flex;
             position: absolute;
@@ -328,7 +328,7 @@ body{
 
         .renglon9 {
             background-color: silver;
-            height: 2vh;
+            height: 1.5vh;
             width: 50%;
             display: flex;
             position: absolute;
