@@ -9,7 +9,7 @@ body{
 }
 
 .top {
-    height: 30vh;
+    height: 50vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@ body{
     width: 100vw;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between; /* para que los márgenes sean automáticos e iguales */
+    justify-content: space-between; /* márgenes iguales */
     padding: 0 15vw;
 
     .cuadrado {
@@ -29,7 +29,47 @@ body{
         height: 30vh;
         width: 30vh;
         display: flex;
-        margin-top: 5vh;
+        margin-top: 5vh;  
+        flex-direction: column; 
+        justify-content: flex-start; 
+
+        .item1 {
+            background-color: lightblue;
+            height: 2vh;
+            width: 2vh;
+            display: flex;
+            position: absolute;
+            margin-top: 5vh;
+            margin-left: 5vh;
+        }
+        .renglon1 {
+            background-color: aliceblue;
+            height: 2vh;
+            width: 16vh;
+            display: flex;
+            position: absolute;
+            margin-top: 5vh;
+            margin-left: 10vh;
+        }
+
+        .item2 {
+            background-color: lightblue;
+            height: 2vh;
+            width: 2vh;
+            display: flex;
+            position: absolute;
+            margin-top: 10vh;
+            margin-left: 5vh;
+        }
+        .renglon2 {
+            background-color: aliceblue;
+            height: 2vh;
+            width: 16vh;
+            display: flex;
+            position: absolute;
+            margin-top: 10vh;
+            margin-left: 10vh;
+        }
     }
 
     .rectangulo {
@@ -38,29 +78,29 @@ body{
         width: 80vh;
         display: flex;
         flex-direction: column;
-        position: relative; /*necesario para posicionar hijos adentro */
+        position: relative;
         margin-top: 5vh;
 
-        .renglon {
+        .renglon3 {
             background-color: aliceblue;
-            height: 2vh;
+            height: 1.5vh;
             width: 80vh;
             display: flex;
             position: absolute;
-            margin-top: 7vh; /* espacio de separación */
+            margin-top: 7vh;
         }
 
-        .renglon2 {
+        .renglon4 {
             background-color: aliceblue;
-            height: 2vh;
+            height: 1.5vh;
             width: 80vh;
             display: flex;
             position: absolute;
             margin-top: 11vh;
         }
-        .renglon3 {
+        .renglon5 {
             background-color: aliceblue;
-            height: 2vh;
+            height: 1.5vh;
             width: 50vh;
             display: flex;
             position: absolute;
