@@ -9,7 +9,7 @@ body{
 }
 
 .top {
-    height: 50vh;
+    height: 40vh;
     width: 100vw;
     display: flex;
     align-items: flex-start;
@@ -52,7 +52,7 @@ body{
         justify-content: space-evenly; /* Distribuye los renglones con el mismo espacio entre ellos */
         width: 100%;  /* Asegura que el contenedor ocupe el 100% del ancho */
         position: absolute;
-        top: 33vh;  /* Alinea verticalmente los renglones */
+        top: 29vh;  /* Alinea verticalmente los renglones */
         align-items: center;  /* Alinea los renglones al centro verticalmente */
     }
     
@@ -164,5 +164,140 @@ body{
     height: 60vh;
     width: 100vw;
     display: flex;
-    align-items: center;
+    align-items: space-evenly;
+    padding: 0 15vw;
+
+    .cuadrado1 {
+        background-color: lightsalmon;
+        height: 30vh;
+        width: 30vh;
+        display: flex;
+        margin-top: 5vh;  
+        flex-direction: column; 
+        justify-content: flex-start; 
+        position: relative;
+
+        .renglon1 {
+            background-color: dimgrey;
+            height: 2vh;
+            width: 100%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 5vh;
+            left: 0;
+        }
+
+        .renglon2 {
+            background-color: silver;
+            height: 2vh;
+            width: 100%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 9vh;
+            left: 0;
+        }
+
+        .renglon3 {
+            background-color: silver;
+            height: 2vh;
+            width: 50%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 13vh;
+            left: 0;
+        }
+    }
+
+    .cuadrado2 {
+        background-color: steelblue;
+        height: 30vh;
+        width: 30vh;
+        display: flex;
+        margin-top: 5vh;
+        margin-left: 10vw;  
+        flex-direction: column; 
+        justify-content: flex-start; 
+        position: relative;
+
+        .renglon4 {
+            background-color: dimgrey;
+            height: 2vh;
+            width: 100%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 5vh;
+            left: 0;
+        }
+
+        .renglon5 {
+            background-color: silver;
+            height: 2vh;
+            width: 100%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 9vh;
+            left: 0;
+        }
+
+        .renglon6 {
+            background-color: silver;
+            height: 2vh;
+            width: 50%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 13vh;
+            left: 0;
+        }
+    }
+
+    .cuadrado3 {
+        background-color: khaki;
+        height: 30vh;
+        width: 30vh;
+        display: flex;
+        margin-top: 5vh;
+        margin-left: 10vw;  
+        flex-direction: column; 
+        justify-content: flex-start; 
+        position: relative;
+
+        .renglon7 {
+            background-color: dimgrey;
+            height: 2vh;
+            width: 100%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 5vh;
+            left: 0;
+        }
+
+        .renglon8 {
+            background-color: silver;
+            height: 2vh;
+            width: 100%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 9vh;
+            left: 0;
+        }
+
+        .renglon9 {
+            background-color: silver;
+            height: 2vh;
+            width: 50%;
+            display: flex;
+            position: absolute;
+            top: 100%;
+            margin-top: 13vh;
+            left: 0;
+        }
+    }
 }
