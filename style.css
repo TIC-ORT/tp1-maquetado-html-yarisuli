@@ -177,6 +177,43 @@ body{
         justify-content: flex-start; 
         position: relative;
 
+        .rectangulo {
+            background-color: tomato;
+            height: 3.5vh;
+            width: 20vh;
+            display: flex;
+            position: center;
+            margin-top: 5vh;
+            margin-left: 5vh;
+
+            .renglonA {
+                background-color: aliceblue;
+                height: 1vh;
+                width: 20vh;
+                display: flex;
+                position: absolute;
+                margin-top: 6vh;
+            }
+    
+            .renglonB {
+                background-color: aliceblue;
+                height: 1vh;
+                width: 20vh;
+                display: flex;
+                position: absolute;
+                margin-top: 9vh;
+            }
+    
+            .renglonC {
+                background-color: aliceblue;
+                height: 1vh;
+                width: 10vh;
+                display: flex;
+                position: absolute;
+                margin-top: 12vh;
+            }
+        }
+
         .renglon1 {
             background-color: dimgrey;
             height: 2vh;
