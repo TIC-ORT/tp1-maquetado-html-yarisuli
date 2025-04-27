@@ -13,16 +13,61 @@ body{
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .middle {
-    background-color:paleturquoise;
+    background-color: powderblue;
     height: 40vh;
     width: 100vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between; /* para que los márgenes sean automáticos e iguales */
+    padding: 0 15vw;
+
+    .cuadrado {
+        background-color: steelblue;
+        height: 30vh;
+        width: 30vh;
+        display: flex;
+        margin-top: 5vh;
+    }
+
+    .rectangulo {
+        background-color: dimgrey;
+        height: 5vh;
+        width: 80vh;
+        display: flex;
+        flex-direction: column;
+        position: relative; /*necesario para posicionar hijos adentro */
+        margin-top: 5vh;
+
+        .renglon {
+            background-color: aliceblue;
+            height: 2vh;
+            width: 80vh;
+            display: flex;
+            position: absolute;
+            margin-top: 7vh; /* espacio de separación */
+        }
+
+        .renglon2 {
+            background-color: aliceblue;
+            height: 2vh;
+            width: 80vh;
+            display: flex;
+            position: absolute;
+            margin-top: 11vh;
+        }
+        .renglon3 {
+            background-color: aliceblue;
+            height: 2vh;
+            width: 50vh;
+            display: flex;
+            position: absolute;
+            margin-top: 15vh;
+            margin-left: 15vh;
+        }
+    }
 }
 
 .bottom {
@@ -30,5 +75,4 @@ body{
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
