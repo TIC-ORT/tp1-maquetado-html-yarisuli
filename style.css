@@ -34,7 +34,7 @@ body{
         justify-content: flex-start; 
 
         .item1 {
-            background-color: lightblue;
+            background-color: lightskyblue;
             height: 2vh;
             width: 2vh;
             display: flex;
@@ -53,7 +53,7 @@ body{
         }
 
         .item2 {
-            background-color: lightblue;
+            background-color: lightskyblue;
             height: 2vh;
             width: 2vh;
             display: flex;
